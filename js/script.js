@@ -45,3 +45,34 @@ function menuOnClick() {
   document.getElementById("nav__burger").classList.toggle("change");
   document.getElementById("menu-bg").classList.toggle("change-bg");
 }
+
+// Tabs btn
+
+document.addEventListener('DOMContentLoaded', function () {
+  $(function () {
+    $('#tabs-btn-1').click(function () {
+      $('#tabs-btn-1').addClass('tabs-btn-active');
+      $('#tabs-btn-2').removeClass('tabs-btn-active');
+      $('#tabs-btn-3').removeClass('tabs-btn-active');
+      $('#tabs-btn-4').removeClass('tabs-btn-active');
+    });
+    $('#tabs-btn-2').click(function () {
+      $('#tabs-btn-2').addClass('tabs-btn-active');
+      $('#tabs-btn-1').removeClass('tabs-btn-active');
+      $('#tabs-btn-3').removeClass('tabs-btn-active');
+      $('#tabs-btn-4').removeClass('tabs-btn-active');
+    });
+    $('#tabs-btn-3').click(function () {
+      $('#tabs-btn-3').addClass('tabs-btn-active');
+      $('#tabs-btn-1').removeClass('tabs-btn-active');
+      $('#tabs-btn-2').removeClass('tabs-btn-active');
+      $('#tabs-btn-4').removeClass('tabs-btn-active');
+    });
+    $('#tabs-btn-4').click(function () {
+      $('#tabs-btn-4').addClass('tabs-btn-active');
+      $('#tabs-btn-1').removeClass('tabs-btn-active');
+      $('#tabs-btn-2').removeClass('tabs-btn-active');
+      $('#tabs-btn-3').removeClass('tabs-btn-active');
+    });
+  });
+})

@@ -467,6 +467,10 @@ section {
   color: #E1670E;
 }
 
+.tabs-btn-active {
+  color: #E1670E;
+}
+
 .step {
   display: none;
   justify-content: space-between;
