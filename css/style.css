@@ -257,20 +257,20 @@ section {
   backface-visibility: hidden;
   animation: slideBg 8s linear infinite 0s;
   animation-timing-function: ease-in-out;
-  background-image: url('../img/main/Heading/slider_one.png');
+  background-image: url('../img/main/Heading/slider_one.jpg');
 }
 
 @keyframes slideBg {
   0% {
-    background-image: url('../img/main/Heading/slider_one.png');
+    background-image: url('../img/main/Heading/slider_one.jpg');
   }
 
   33% {
-    background-image: url('../img/main/Heading/slider_two.png');
+    background-image: url('../img/main/Heading/slider_two.jpg');
   }
 
   66% {
-    background-image: url('../img/main/Heading/slider_three.png');
+    background-image: url('../img/main/Heading/slider_three.jpg');
   }
 }
 
