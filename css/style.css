@@ -335,7 +335,7 @@ section {
 }
 
 .about-us-picture__block_main {
-  background: url('../img/main/AboutUs/worker.png');
+  background: url('../img/main/AboutUs/worker.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -540,19 +540,19 @@ section {
 }
 
 .step-img_one {
-  background: url('../img/main/HowWeWork/work_step_one.png');
+  background: url('../img/main/HowWeWork/work_step_one.jpg');
 }
 
 .step-img_two {
-  background: url('../img/main/HowWeWork/work_step_two.png');
+  background: url('../img/main/HowWeWork/work_step_two.jpg');
 }
 
 .step-img_three {
-  background: url('../img/main/HowWeWork/work_step_three.png');
+  background: url('../img/main/HowWeWork/work_step_three.jpg');
 }
 
 .step-img_four {
-  background: url('../img/main/HowWeWork/work_step_four.png');
+  background: url('../img/main/HowWeWork/work_step_four.jpg');
 }
 
 .step-img {
