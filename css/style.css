@@ -210,10 +210,6 @@ section {
   border-bottom: 2px solid #FF9900;
 }
 
-.nav__link:focus {
-  outline: 2px solid #FF9900;
-}
-
 .nav__link:active {
   color: #E1670E;
   border-bottom: 2px solid #E1670E;
